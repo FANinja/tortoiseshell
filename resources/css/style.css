@@ -13,7 +13,6 @@ body {
 }
 
 .header .container{
-  margin-top: 1rem;
   background-color: cadetblue;
   color: white;
   font-family: Helvetica;
@@ -28,11 +27,10 @@ body {
 }
 
 .header-options {
-  width:30%;
+  width: 30%;
   display: inline-flex;
   justify-content: space-between ;
   margin: 1rem 2rem;
-
 }
 
 .header span {
@@ -43,4 +41,114 @@ body {
   height: 1.5rem;
   width: auto;
   margin: auto 1rem auto 2rem;
+}
+
+.banner-image {
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.banner .container {
+  text-align: right;
+}
+
+.banner-motto {
+  background-color: white;
+  margin-top: 10rem;
+  display: inline-block;
+
+}
+
+.banner-motto span {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.5rem 5rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.body-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.image {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+}
+
+.image .ruler {
+  margin: auto 5rem auto 5rem;
+}
+
+.paper img{
+  height: 50%;
+  width: 3.5rem;
+}
+
+.ruler img{
+  height: 20%;
+  width: 5rem;
+  margin-bottom:1.5rem ;
+}
+
+.truck img {
+  height: 10%;
+  margin-bottom: 1.5rem;
+  width: 5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+.detail {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.title {
+  text-transform: uppercase;
+  background-color: cadetblue;
+  color: white ;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+footer {
+  background-color: azure;
+}
+
+footer .container{
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height:1.5rem;
+  width:auto;
+  margin: 4rem 1rem 4rem 4rem;
 }
