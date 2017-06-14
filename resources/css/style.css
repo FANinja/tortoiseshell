@@ -3,10 +3,11 @@
   margin: 0px auto;
 }
 
+/*
 div {
   border: thin solid black;
 }
-
+*/
 body {
   font-size: 18px;
   line-height: 1.4;
@@ -97,17 +98,18 @@ body {
 .paper img{
   height: 50%;
   width: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .ruler img{
   height: 20%;
   width: 5rem;
-  margin-bottom:1.5rem ;
+  margin-bottom:2rem ;
 }
 
 .truck img {
   height: 10%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   width: 5rem;
 }
 
@@ -132,6 +134,10 @@ body {
   color: white ;
   padding: 0.5rem 1.25rem;
   width: 10rem;
+}
+
+.para {
+  margin-top: 1rem;
 }
 
 .philosophy {
