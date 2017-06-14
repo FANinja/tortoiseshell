@@ -1,0 +1,46 @@
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+div {
+  border: thin solid black;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.header .container{
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-name {
+  display: flex;
+  text-align: center;
+}
+
+.header-options {
+  width:30%;
+  display: inline-flex;
+  justify-content: space-between ;
+  margin: 1rem 2rem;
+
+}
+
+.header span {
+  margin-top: 1rem;
+}
+
+.header img {
+  height: 1.5rem;
+  width: auto;
+  margin: auto 1rem auto 2rem;
+}
