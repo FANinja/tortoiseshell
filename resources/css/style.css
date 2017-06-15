@@ -20,6 +20,7 @@ body {
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .header-name {
@@ -32,6 +33,10 @@ body {
   display: inline-flex;
   justify-content: space-between ;
   margin: 1rem 2rem;
+}
+
+.smaller-header {
+  display:none;
 }
 
 .header span {
@@ -50,11 +55,12 @@ body {
   background-size: cover;
   height: 30rem;
   width: 100%;
-  margin-top: 1rem;
+
 }
 
 .banner .container {
   text-align: right;
+  margin: auto 2rem auto auto;
 }
 
 .banner-motto {
@@ -104,7 +110,7 @@ body {
 .ruler img{
   height: 20%;
   width: 5rem;
-  margin-bottom:2rem ;
+  margin-bottom: 2rem ;
 }
 
 .truck img {
@@ -114,8 +120,6 @@ body {
 }
 
 .details {
-  display: flex;
-  justify-content: center;
   font-family: Helvetica;
   font-weight: bold;
   font-size: 1rem;
@@ -142,6 +146,7 @@ body {
 
 .philosophy {
   margin-right: 5%;
+  width: 40%;
 }
 
 footer {
@@ -154,7 +159,122 @@ footer .container{
 }
 
 footer img {
-  height:1.5rem;
-  width:auto;
+  height: 1.5rem;
+  width: auto;
   margin: 4rem 1rem 4rem 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width:100%;
+  }
+
+  .header .container {
+    margin-top: 0px;
+  }
+
+  .banner-image {
+    height: 22rem;
+  }
+
+  .banner-motto {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .banner-motto span {
+    font-size: 1.33rem;
+    margin: 0.75rem 4rem;
+  }
+
+}
+
+@media only screen and (max-width:550px) {
+
+  .header-name span {
+    display:none;
+  }
+
+  .header-options {
+    display: none;
+  }
+
+  .smaller-header {
+    display:inline-block;
+    width: 30%;
+    margin: 1rem 0px;
+  }
+
+  .banner-image {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .banner-motto {
+    display: block;
+    margin: 9rem 0px 0px 0px;
+
+  }
+
+  .banner-motto span{
+    display: flex;
+    font-size: 1rem;
+    padding: 1rem 0px;
+    justify-content: center;
+  }
+
+  .body-images {
+    flex-direction: column;
+    margin: 3.77rem auto;
+    height: auto;
+  }
+
+  .image span {
+    font-size: 0.77rem;
+    font-family: Helvetica;
+  }
+
+  .ruler {
+    margin: 1.54rem auto;
+  }
+
+  .ruler img{
+    margin-bottom: 1rem ;
+  }
+
+  .truck img {
+    margin-bottom: 1rem;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail, .title {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .para {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+  }
+
+  .philosophy {
+    margin-bottom: 4rem;
+  }
+
+  .footer {
+    display:none;
+  }
+
+  footer .container {
+    justify-content: center;
+    align-items: center;
+  }
 }
